@@ -1,9 +1,10 @@
-<!doctype html>
+  <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mary Gualtieri | Junior Web Developer</title>
+      <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Rock+Salt' rel='stylesheet' type='text/css'>
       <link type="text/css" rel="stylesheet" href="portfolio.css"  media="screen" charset="utf-8"/>
       <link type="text/css" rel="stylesheet" href="Normalize.css" />
     </head>
@@ -13,19 +14,31 @@
 <body>
 
 
-      <div class="main" id=>
+      <div class="main" >
 <!--Top Navigation Bar-->
-        <div id="navbar">
-          <a href="https://www.linkedin.com/pub/mary-gualtieri/57/438/680">LinkedIn</a> |
-          <a href="https://github.com/MaryGualtieri">Github</a> |
-          <a href="mailto:mgualtieri7@gmail.com">Contact Me</a></b>
-        </div>
+
+
+<nav class="flex-nav">
+
+  <ul>
+    <li><a href="">Home</a></li>|
+    <li><a href="#about">About</a></li>|
+    <li><a href="#rps">Portfolio</a></li>|
+    <li><a href="#icons">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="contact-box">
+<li><b>Want get in contact with me? </b></li>
+<li>Mgualtieri7@gmail.com</li>
+<li>954.655.8945</li>
+</div>
+
 
 <!--Welcome -->
             <main>
           <br></br>
         <h1>Hi! I'm <strong>Mary!</strong></h1>
-      <p thanks>Thanks for stopping by.</p>
     </div>
   </div>
 </main>
@@ -34,20 +47,20 @@
 
 
 
-      <div class="about" >
+      <div class="about" id="about">
 
          <img src="Images/profile.jpg" alt="Profile" height="300" width="270"/>
-      <p> < Hello World! > </p>
+      <p>< Hello World! ></p>
         <p>I am a native South Floridian with a passion for coding. I am currently in Wyncode Academy learning to become a fullstack developer.</p>
 
-      <p skills> My skills include:</p>
+      <p skills><b><u> My skills include:</u></b></p>
 
-      <div class="Skills">
-        <img src="Images/HTML5.png" alt="HTML" height="50" width="50" class="skills-img"/>
-        <img src="Images/CSS3.png" alt="CSS" height="50" width="50" class="skills-img"/>
-        <img src="Images/JAVASCRIPT.png" alt="Javascript" height="50" width="50" class="skills-img"/>
-        <img src="Images/Ruby.png" alt="Ruby" height="50" width="50" class="skills-img"/>
-        <img src="Images/Rails.jpg" alt="Rails"height="50" width="50" class="skills-img"/>
+      <div class="Skills" id="skills">
+        <img src="Images/HTML5.png" alt="HTML" class="skills-img"/>
+        <img src="Images/CSS3.png" alt="CSS" class="skills-img"/>
+        <img src="Images/JAVASCRIPT.png" alt="Javascript" class="skills-img"/>
+        <img src="Images/Ruby.png" alt="Ruby" class="skills-img"/>
+        <img src="Images/Rails.jpg" alt="Rails" class="skills-img"/>
       </div>
     </div>
 
@@ -62,7 +75,7 @@
         <h2 id="rps"><b><u>Rock Paper Scissors</u></b></h2>
         <a href="https://github.com/MaryGualtieri/REPL-GAME">
 
-          <img src= 'Images/rps.png' alt="Rps" height="300" width="300" class ="repl-img"/></a>
+          <img src= 'Images/rps.png' alt="Rps" class ="repl-img"/></a>
       </div>
       <div class="work">
         <h2 id="voter"><u><b>Voter Simulator</b></u></h2>
@@ -77,6 +90,8 @@
   <footer>
     <div class="footer">
       <h2>Stay Connected With Me</h2>
+
+    <p><img src="Images/phone.png" alt="Phone" class="phone-img">954-655-8945</p>
 
 <div id="icons">
   <div class="flex-item">
@@ -95,7 +110,7 @@
 </div>
 
     </div>
-    <p copyright>Copywright &copy; Mary Gualtieri</p>
+    <p copyright>Copyright &copy; Mary Gualtieri</p>
     </div>
   </footer>
 </body>

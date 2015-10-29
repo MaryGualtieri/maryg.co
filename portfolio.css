@@ -1,20 +1,69 @@
-
-#navbar {
-  display: inline;
-  background-color: b8b8b8;
-  color: black;
-  height: 10px;
-  text-align: right;
-  float: left;
+body {
+  margin: 0;
 }
 
-#navbar a {
-  color: #white;
+body  li {
+    list-style: none;
 }
 
-#navbar a:hover {
- color: black;
+.contact-box li {
+  color: white;
+  text-align: center;
 }
+
+.contact-box {
+  position: fixed;
+
+}
+
+.contact-box {
+    right: 6px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 2%;
+    top: 75px;
+}
+
+.flex-nav a {
+      text-decoration: none;
+       padding: 20px ;
+       display: inline;
+       width: 100%;
+       text-align: center;
+       color: white;
+       font-weight: 400;
+       justify-content: center;
+}
+
+.flex-nav ul  :hover {
+         color: red;
+       }
+
+.flex-nav ul {
+  position: fixed;
+  margin: 0;
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  opacity: 0.6;
+    color: white;
+}
+
+.flex-nav li {
+  flex: 1;
+
+}
+
+.contact-box {
+height:65 px;
+width:151px;
+border:8px black;
+padding:2%
+right: 6px;
+}
+
+
 
 .main{
   background-image: url('./Images/IMG_1901-1.jpg');*/
@@ -24,82 +73,76 @@
   background-size: cover;
   padding-bottom: 50%;
   color: white;
+  width: 107%;
 }
 
 
 .main h1 {
-  font-family: Myriad Pro, serif;
-  font-size; 100rem;
+  font-family: 'Rock Salt', cursive;
+  font-size: 4em;
+  margin: -3%;
   font-style: normal;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px black;
 }
 
+p {
+    font-size: 20px;
+}
 
-.main p {
-  font-family: Myriad Pro, serif;
-  font-size; 100px;
-  font-style: normal;
-  text-align: center;
-  color: white;
+b {
+    font-size: 1em;
 }
 
 .about {
-  font-family: Myriad Pro, serif;
-  /*width: 700px;
-  margin: auto;*/
+  font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   padding: 1rem;
 }
 
 .skills-img {
   margin: 10px;
+  height: 50px;
+  width: 50px;
 }
 
 .flex-container{
-  /*background-image: url('./Images/background.jpg');
-  opacity: 0.9;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: -2%;*/
   height: auto;
   display: flex;
-  /*flex-flow: row wrap;*/
   flex-flow: column;
   padding-bottom: 0%;
   justify-content: space-between;
 }
 
 section > h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 3em;
   text-align: center;
-    margin: 10px;
+  margin: 10px;
 }
-/*
-.work {
-  background-color: #d5e9f4;
-  flex: 1 0 30%;
-  height: 100%;
-  text-align: center;
-  margin: auto;
-  margin-top: 1.3rem;
-  padding-bottom: 3%;
-}*/
 
-img.repl-img, img.votersim {
-    width: 100vw;
+
+img.votersim {
+    width: 50vw;
+    height: 50vh;
+}
+
+img.repl-img {
+  width: 50vw;
+  height: 50vh;
 }
 
 
 #rps {
   text-align: center;
-  ont-family: Myriad Pro, serif;
+  font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
 
 #voter {
   text-align: center;
-  font-family: Myriad Pro, serif;
+  font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
 
@@ -113,25 +156,27 @@ img.repl-img, img.votersim {
   padding-top: 0.1%;
   padding-bottom: 0.5%;
   margin-top: 2rem;
+  width: 107%;
 }
 
 #icons {
-  /*margin-left: auto;*/
   text-align: center;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  /*align-content: center;*/
 }
 
 img.icons-img {
-  margin: 48px;
+  margin: 15px;
   height: 50px;
   width: 50px;
+
 }
 
 .footer h2 {
+  font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
+  padding-bottom: 0%;
 }
 
 .footer p {
@@ -139,7 +184,9 @@ img.icons-img {
   text-align: center;
 }
 
-
+img.phone-img {
+    height: 20px;
+}
 
 
 
