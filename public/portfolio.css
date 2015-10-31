@@ -115,6 +115,11 @@ b {
   justify-content: space-between;
 }
 
+.work {
+  margin: 0;
+  padding-top: 0;
+}
+
 section > h2 {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 3em;
@@ -123,16 +128,9 @@ section > h2 {
 }
 
 
-img.votersim {
-    width: 50vw;
-    height: 50vh;
+img.votersim, img.repl-img, {
+    width: 40%;
 }
-
-img.repl-img {
-  width: 50vw;
-  height: 50vh;
-}
-
 
 #rps {
   text-align: center;
@@ -141,6 +139,18 @@ img.repl-img {
 }
 
 #voter {
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: black;
+}
+
+#vgeo {
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: black;
+}
+
+#webvee {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
