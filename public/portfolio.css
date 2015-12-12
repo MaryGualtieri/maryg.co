@@ -143,6 +143,7 @@ img.votersim, img.repl-img, {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  margin: auto;
 }
 
 img.icons-img {
