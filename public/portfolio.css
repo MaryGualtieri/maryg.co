@@ -206,6 +206,14 @@ img.phone-img {
     width: 80vw;
 }
 
+  img.vgeo {
+    width: 80vw;
+  }
+
+  img.webvee {
+      width: 80vw;
+  }
+
   .flex-container{
     margin: 0 50px;
   }
@@ -232,6 +240,14 @@ img.phone-img {
 
   img.votersim {
     width: 50%;
+  }
+
+  img.vgeo {
+    width: 50%;
+  }
+
+  img.webvee {
+      width: 50%;
   }
 
 }
