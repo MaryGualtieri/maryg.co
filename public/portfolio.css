@@ -112,7 +112,7 @@ b {
   padding-top: 0;
 }
 
-section > h2 {
+h2#title {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 3em;
   text-align: center;
@@ -129,7 +129,7 @@ img.TUTRD  {
 }
 
 img.PAID {
-  width: 58%;
+  width: 56%;
 }
 
 #rps {
