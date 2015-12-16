@@ -120,8 +120,16 @@ section > h2 {
 }
 
 
-img.votersim, img.repl-img, img.vgeo, img.webvee, img.TUTRD, img.PAID {
+img.votersim, img.repl-img, img.vgeo, img.webvee,  {
     width: 40%;
+}
+
+img.TUTRD  {
+  width: 50%;
+}
+
+img.PAID {
+  width: 58%;
 }
 
 #rps {
@@ -148,13 +156,13 @@ img.votersim, img.repl-img, img.vgeo, img.webvee, img.TUTRD, img.PAID {
   color: black;
 }
 
-#tutrd {
-  text-align: center;
-  font-family: 'Shadows Into Light Two', cursive;
-  color: black;
+h2#TUTRD {
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: black;
 }
 
-#PAID {
+h2#paid {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
