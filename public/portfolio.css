@@ -120,7 +120,7 @@ section > h2 {
 }
 
 
-img.votersim, img.repl-img, {
+img.votersim, img.repl-img, img.vgeo, img.webvee {
     width: 40%;
 }
 
@@ -226,12 +226,12 @@ img.phone-img {
   }
 
   img.repl-img {
-    width: 90%;
+    width: 50%;
 
   }
 
   img.votersim {
-    width: 90%;
+    width: 50%;
   }
 
 }
