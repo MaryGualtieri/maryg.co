@@ -205,6 +205,9 @@ nav {
   overflow: hidden;
   background: white;
   box-shadow: 0 2px 6px #000;
+  position: fixed;
+  padding-left: 31%;
+  padding-right: 30.8%;
 }
 .logo-box {
   float: left;
