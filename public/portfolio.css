@@ -65,7 +65,6 @@ li a {
   background-size: cover;
   padding-bottom: 50%;
   color: white;
-  width: 107%;
 }
 
 
@@ -132,7 +131,7 @@ img.TUTRD  {
 }
 
 img.PAID {
-  width: 56%;
+  width: 57%;
    box-shadow: 4px 4px 4px #888888;
 }
 
@@ -191,7 +190,6 @@ h2#paid {
   padding-top: 0.1%;
   padding-bottom: 0.5%;
   margin-top: 1rem;
-  width: 107%;
 }
 
 #icons {
@@ -285,22 +283,22 @@ img:hover {
   }
 
   img.repl-img {
-    width: 50%;
+    width: 40%;
      box-shadow: 4px 4px 4px #888888;
   }
 
   img.votersim {
-    width: 50%;
+    width: 40%;
      box-shadow: 4px 4px 4px #888888;
   }
 
   img.vgeo {
-    width: 50%;
+    width: 40%;
      box-shadow: 4px 4px 4px #888888;
   }
 
   img.webvee {
-      width: 50%;
+      width: 40%;
        box-shadow: 4px 4px 4px #888888;
   }
 
