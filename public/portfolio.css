@@ -223,6 +223,11 @@ background-size: cover;
 color: black;
 }
 
+img:hover {
+    opacity: 0.5;
+}
+
+
 /*Media Query*/
 
 @media screen and (min-width: 440px) {
