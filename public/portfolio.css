@@ -175,6 +175,13 @@ h2#paid {
 .skills {
   height:50px;
   width: 50px;
+
+}
+
+.Skills {
+   box-shadow: 10px 10px 5px #888888;
+   margin-right: 18%;
+   margin-left: 18%;
 }
 
 .footer {
