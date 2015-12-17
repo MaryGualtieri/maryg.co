@@ -71,7 +71,7 @@ li a {
 .main h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 4em;
-  margin: -3%;
+  margin: -4%;
   font-style: normal;
   text-align: center;
   color: white;
@@ -276,7 +276,7 @@ a {
   position: relative;
 }
 li a {
-  color: #868686;
+  color: #000;
   text-transform: uppercase;
 }
 li {
@@ -297,38 +297,7 @@ li a:after {
 li a:hover:after{
   width: 100%;
 }
-@media screen and (max-width:574px) {
-  .logo-box {
-    float: none;
-    margin: 0 auto;
-  }
-  ul {
-    float: none;
-    margin: 0 25px;
-    }
- li:first-of-type {margin-left:0}
-}
 
-@media screen and (max-width:493px) {
-nav {
-  overflow: visible
-}
-ul {
-  height: auto;
-  margin: 25px 25px 0 25px;
-  line-height: 50px;
-}
-li {
-  display: block;
-  margin: 0;
-}
-li:hover {
-  background: rgba(0,0,0,.1)
-}
-li a:after {
-  content: none;
-}
-}
 
 
 
@@ -362,6 +331,38 @@ li a:after {
   }
 }
 
+@media screen and (max-width:493px) {
+nav {
+  overflow: visible
+}
+ul {
+  height: auto;
+  margin: 25px 25px 0 25px;
+  line-height: 50px;
+}
+li {
+  display: block;
+  margin: 0;
+}
+li:hover {
+  background: rgba(0,0,0,.1)
+}
+li a:after {
+  content: none;
+}
+}
+
+@media screen and (max-width:574px) {
+  .logo-box {
+    float: none;
+    margin: 0 auto;
+  }
+  ul {
+    float: none;
+    margin: 0 25px;
+    }
+ li:first-of-type {margin-left:0}
+}
 
 @media screen and (min-width: 728px) {
 
