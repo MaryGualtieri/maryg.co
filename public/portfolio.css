@@ -122,14 +122,18 @@ h2#title {
 
 img.votersim, img.repl-img, img.vgeo, img.webvee,  {
     width: 40%;
+     box-shadow: 10px 10px 5px #888888;
 }
+
 
 img.TUTRD  {
   width: 50%;
+   box-shadow: 4px 4px 4px #888888;
 }
 
 img.PAID {
   width: 56%;
+   box-shadow: 4px 4px 4px #888888;
 }
 
 #rps {
@@ -234,18 +238,22 @@ img:hover {
 
   img.repl-img {
     width: 80vw;
+     box-shadow: 4px 4px 4px #888888;
   }
 
   img.votersim {
     width: 80vw;
+     box-shadow: 4px 4px 4px #888888;
 }
 
   img.vgeo {
     width: 80vw;
+     box-shadow: 4px 4px 4px #888888;
   }
 
   img.webvee {
       width: 80vw;
+      box-shadow: 4px 4px 4px #888888;
   }
 
   .flex-container{
@@ -269,19 +277,22 @@ img:hover {
 
   img.repl-img {
     width: 50%;
-
+     box-shadow: 4px 4px 4px #888888;
   }
 
   img.votersim {
     width: 50%;
+     box-shadow: 4px 4px 4px #888888;
   }
 
   img.vgeo {
     width: 50%;
+     box-shadow: 4px 4px 4px #888888;
   }
 
   img.webvee {
       width: 50%;
+       box-shadow: 4px 4px 4px #888888;
   }
 
 }
