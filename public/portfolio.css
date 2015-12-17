@@ -1,36 +1,30 @@
 body {
   margin: 0;
 }
-
-body  li {
-    list-style: none;
+body li {
+  list-style: none;
 }
-
 .contact-box li {
   color: white;
   text-align: center;
 }
-
 .contact-box {
   position: fixed;
-
 }
-
 .contact-box {
-    right: 6px;
-    background-color: black;
-    opacity: 0.6;
-    padding: 2%;
-    top: 75px;
+  right: 6px;
+  background-color: black;
+  opacity: 0.6;
+  padding: 2%;
+  top: 75px;
+}
+.contact-box {
+  height: 65 px;
+  width: 151px;
+  border: 8px black;
+  padding: 2% right: 6px;
 }
 
-.contact-box {
-height:65 px;
-width:151px;
-border:8px black;
-padding:2%
-right: 6px;
-}
 /*
 .flex-nav {
   margin: 0;
@@ -56,18 +50,15 @@ li a {
     margin-left: -40px;
 }*/
 
-
-.main{
-  background-image: url('./Images/IMG_1901-1.jpg');*/
-  opacity: 0.7;
+.main {
+  background-image: url('./Images/IMG_1901-1.jpg');
+  */ opacity: 0.7;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50%;
   color: white;
 }
-
-
 .main h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 4em;
@@ -77,121 +68,98 @@ li a {
   color: white;
   text-shadow: 2px 2px black;
 }
-
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
-
 b {
-    font-size: 1em;
+  font-size: 1em;
 }
-
 .about {
   font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   padding: 1rem;
 }
-
 .skills-img {
   margin: 10px;
   height: 50px;
   width: 50px;
 }
-
-.flex-container{
+.flex-container {
   height: auto;
   display: flex;
   flex-flow: column;
   padding-bottom: 0%;
   justify-content: space-between;
 }
-
 .work {
   margin: 0;
   padding-top: 0;
 }
-
 h2#title {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 3em;
   text-align: center;
   margin: 10px;
 }
-
-
-img.votersim, img.repl-img, img.vgeo, img.webvee,  {
-    width: 40%;
-     box-shadow: 10px 10px 5px #888888;
+img.votersim, img.repl-img, img.vgeo, img.webvee, {
+  width: 40%;
+  box-shadow: 10px 10px 5px #888888;
 }
-
-
-img.TUTRD  {
+img.TUTRD {
   width: 50%;
-   box-shadow: 4px 4px 4px #888888;
+  box-shadow: 4px 4px 4px #888888;
 }
-
 img.PAID {
   width: 57%;
-   box-shadow: 4px 4px 4px #888888;
+  box-shadow: 4px 4px 4px #888888;
 }
-
 #rps {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
-
 #voter {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
-
 #vgeo {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
-
 #webvee {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
-
 h2#TUTRD {
-    text-align: center;
-    font-family: 'Shadows Into Light Two', cursive;
-    color: black;
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: black;
 }
-
 h2#paid {
   text-align: center;
   font-family: 'Shadows Into Light Two', cursive;
   color: black;
 }
-
 .skills {
-  height:50px;
+  height: 50px;
   width: 50px;
-
 }
-
 .Skills {
-   box-shadow: 10px 10px 5px #888888;
-   margin-right: 30%;
-   margin-left: 30%;
-   border-style: solid;
-    border-width: 1px;
+  box-shadow: 10px 10px 5px #888888;
+  margin-right: 30%;
+  margin-left: 30%;
+  border-style: solid;
+  border-width: 1px;
 }
-
 .footer {
   background-color: #d7d7d7;
   padding-top: 0.1%;
   padding-bottom: 0.5%;
   margin-top: 1rem;
 }
-
 #icons {
   text-align: center;
   display: flex;
@@ -199,57 +167,44 @@ h2#paid {
   justify-content: center;
   margin: auto;
 }
-
 img.icons-img {
   margin: 15px;
   height: 50px;
   width: 50px;
-
 }
-
 .footer h2 {
   font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   padding-bottom: 0%;
 }
-
 .footer p {
   font-family: Myriad Pro, serif;
   text-align: center;
 }
-
 img.phone-img {
-    height: 20px;
+  height: 20px;
 }
-
 img.profile {
   width: 35%;
 }
-
 img.logo {
-    margin-bottom: 25%;
+  margin-bottom: 25%;
 }
-
 .current {
-background-image: url('./Images/background.jpg');*/
-background-position: top;
-background-repeat: no-repeat;
-background-size: cover;
-color: black;
+  background-image: url('./Images/background.jpg');
+  */ background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
 }
-
 img:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
-
-
-
-
 nav {
   margin: 0 auto;
   overflow: hidden;
   background: white;
-    box-shadow: 0 2px 6px #000;
+  box-shadow: 0 2px 6px #000;
 }
 .logo-box {
   float: left;
@@ -268,7 +223,7 @@ ul {
   float: right;
   height: 70px;
   line-height: 70px;
-  text-align:center;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -294,64 +249,61 @@ li a:after {
   background: #868686;
   transition: all 0.5s linear;
 }
-li a:hover:after{
+li a:hover:after {
   width: 100%;
 }
-
-
-
-
 
 /*Media Query*/
 
 @media screen and (min-width: 440px) {
-
   img.repl-img {
     width: 80vw;
-     box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px #888888;
   }
-
   img.votersim {
     width: 80vw;
-     box-shadow: 4px 4px 4px #888888;
-}
-
+    box-shadow: 4px 4px 4px #888888;
+  }
   img.vgeo {
     width: 80vw;
-     box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px #888888;
   }
-
   img.webvee {
-      width: 80vw;
-      box-shadow: 4px 4px 4px #888888;
+    width: 80vw;
+    box-shadow: 4px 4px 4px #888888;
   }
-
-  .flex-container{
+  img.TUTRD{
+    width: 80vw;
+    box-shadow: 4px 4px 4px #888888;
+  }
+  img.PAID{
+    width:80vw;
+    box-shadow: 4px 4px 4px #888888;
+  }
+  .flex-container {
     margin: 0 50px;
   }
 }
-
 @media screen and (max-width:493px) {
-nav {
-  overflow: visible
+  nav {
+    overflow: visible
+  }
+  ul {
+    height: auto;
+    margin: 25px 25px 0 25px;
+    line-height: 50px;
+  }
+  li {
+    display: block;
+    margin: 0;
+  }
+  li:hover {
+    background: rgba(0, 0, 0, .1)
+  }
+  li a:after {
+    content: none;
+  }
 }
-ul {
-  height: auto;
-  margin: 25px 25px 0 25px;
-  line-height: 50px;
-}
-li {
-  display: block;
-  margin: 0;
-}
-li:hover {
-  background: rgba(0,0,0,.1)
-}
-li a:after {
-  content: none;
-}
-}
-
 @media screen and (max-width:574px) {
   .logo-box {
     float: none;
@@ -360,41 +312,42 @@ li a:after {
   ul {
     float: none;
     margin: 0 25px;
-    }
- li:first-of-type {margin-left:0}
-}
-
-@media screen and (min-width: 728px) {
-
-  .flex-container {
-
-  flex-flow: row;
-  text-align: center;
-
   }
-
+  li:first-of-type {
+    margin-left: 0
+  }
+}
+@media screen and (min-width: 728px) {
+  .flex-container {
+    flex-flow: row;
+    text-align: center;
+  }
   .work {
     flex: 1 0 50%;
   }
-
   img.repl-img {
     width: 40%;
-     box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px #888888;
   }
-
   img.votersim {
     width: 40%;
-     box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px #888888;
   }
-
   img.vgeo {
     width: 40%;
-     box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px #888888;
   }
-
   img.webvee {
-      width: 40%;
-       box-shadow: 4px 4px 4px #888888;
+    width: 40%;
+    box-shadow: 4px 4px 4px #888888;
   }
 
+  img.TUTRD{
+    width: 40%;
+    box-shadow: 4px 4px 4px #888888;
+  }
+  img.PAID{
+    width: 40%;
+    box-shadow: 4px 4px 4px #888888;
+  }
 }
