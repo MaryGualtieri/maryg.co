@@ -245,14 +245,11 @@ img:hover {
 
 
 
-header {
-
-  box-shadow: 0 4px 6px rgba(0,0,0,.2);
-}
 nav {
   margin: 0 auto;
   overflow: hidden;
   background: white;
+    box-shadow: 0 2px 6px #000;
 }
 .logo-box {
   float: left;
