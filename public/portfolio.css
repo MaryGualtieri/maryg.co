@@ -62,7 +62,7 @@ li a {
 .main h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 4em;
-  margin: -4%;
+  /*margin: -4%;*/
   font-style: normal;
   text-align: center;
   color: white;
@@ -188,7 +188,7 @@ img.profile {
   width: 35%;
 }
 img.logo {
-  margin-bottom: 25%;
+  margin-bottom: 30%;
 }
 .current {
   background-image: url('./Images/background.jpg');
